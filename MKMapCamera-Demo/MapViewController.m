@@ -60,7 +60,7 @@
                                                                   eyeAltitude:CAMERA_ALTITUDE];
         
         newCamera = [MKMapCamera cameraLookingAtCenterCoordinate:[newLocation coordinate] fromEyeCoordinate:[newLocation coordinate] eyeAltitude:CAMERA_ALTITUDE];
-        [newCamera setPitch:45];
+        [newCamera setPitch:60];
         [newCamera setHeading:newLocation.course];
         
         [self.mapView setCamera:newCamera animated:NO];
