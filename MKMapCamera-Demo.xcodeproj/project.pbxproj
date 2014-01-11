@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49257DD81880F8AA0010F540 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49257DD71880F8AA0010F540 /* Foundation.framework */; };
+		49257DDA1880F8AA0010F540 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49257DD91880F8AA0010F540 /* CoreGraphics.framework */; };
+		49257DDC1880F8AA0010F540 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49257DDB1880F8AA0010F540 /* UIKit.framework */; };
+		49257DE21880F8AA0010F540 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49257DE01880F8AA0010F540 /* InfoPlist.strings */; };
+		49257DE41880F8AA0010F540 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49257DE31880F8AA0010F540 /* main.m */; };
+		49257DE81880F8AA0010F540 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49257DE71880F8AA0010F540 /* AppDelegate.m */; };
+		49257DEA1880F8AA0010F540 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49257DE91880F8AA0010F540 /* Images.xcassets */; };
+		49257DF11880F8AA0010F540 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49257DF01880F8AA0010F540 /* XCTest.framework */; };
+		49257DF21880F8AA0010F540 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49257DD71880F8AA0010F540 /* Foundation.framework */; };
+		49257DF31880F8AA0010F540 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49257DDB1880F8AA0010F540 /* UIKit.framework */; };
+		49257DFB1880F8AA0010F540 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49257DF91880F8AA0010F540 /* InfoPlist.strings */; };
+		49257DFD1880F8AA0010F540 /* MKMapCamera_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49257DFC1880F8AA0010F540 /* MKMapCamera_DemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49257DF41880F8AA0010F540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49257DCC1880F8AA0010F540 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49257DD31880F8AA0010F540;
+			remoteInfo = "MKMapCamera-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49257DD41880F8AA0010F540 /* MKMapCamera-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MKMapCamera-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49257DD71880F8AA0010F540 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		49257DD91880F8AA0010F540 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		49257DDB1880F8AA0010F540 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		49257DDF1880F8AA0010F540 /* MKMapCamera-Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MKMapCamera-Demo-Info.plist"; sourceTree = "<group>"; };
+		49257DE11880F8AA0010F540 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49257DE31880F8AA0010F540 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49257DE51880F8AA0010F540 /* MKMapCamera-Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MKMapCamera-Demo-Prefix.pch"; sourceTree = "<group>"; };
+		49257DE61880F8AA0010F540 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49257DE71880F8AA0010F540 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49257DE91880F8AA0010F540 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		49257DEF1880F8AA0010F540 /* MKMapCamera-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MKMapCamera-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49257DF01880F8AA0010F540 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		49257DF81880F8AA0010F540 /* MKMapCamera-DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MKMapCamera-DemoTests-Info.plist"; sourceTree = "<group>"; };
+		49257DFA1880F8AA0010F540 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49257DFC1880F8AA0010F540 /* MKMapCamera_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKMapCamera_DemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49257DD11880F8AA0010F540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49257DDA1880F8AA0010F540 /* CoreGraphics.framework in Frameworks */,
+				49257DDC1880F8AA0010F540 /* UIKit.framework in Frameworks */,
+				49257DD81880F8AA0010F540 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49257DEC1880F8AA0010F540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49257DF11880F8AA0010F540 /* XCTest.framework in Frameworks */,
+				49257DF31880F8AA0010F540 /* UIKit.framework in Frameworks */,
+				49257DF21880F8AA0010F540 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49257DCB1880F8AA0010F540 = {
+			isa = PBXGroup;
+			children = (
+				49257DDD1880F8AA0010F540 /* MKMapCamera-Demo */,
+				49257DF61880F8AA0010F540 /* MKMapCamera-DemoTests */,
+				49257DD61880F8AA0010F540 /* Frameworks */,
+				49257DD51880F8AA0010F540 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49257DD51880F8AA0010F540 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49257DD41880F8AA0010F540 /* MKMapCamera-Demo.app */,
+				49257DEF1880F8AA0010F540 /* MKMapCamera-DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49257DD61880F8AA0010F540 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49257DD71880F8AA0010F540 /* Foundation.framework */,
+				49257DD91880F8AA0010F540 /* CoreGraphics.framework */,
+				49257DDB1880F8AA0010F540 /* UIKit.framework */,
+				49257DF01880F8AA0010F540 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49257DDD1880F8AA0010F540 /* MKMapCamera-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				49257DE61880F8AA0010F540 /* AppDelegate.h */,
+				49257DE71880F8AA0010F540 /* AppDelegate.m */,
+				49257DE91880F8AA0010F540 /* Images.xcassets */,
+				49257DDE1880F8AA0010F540 /* Supporting Files */,
+			);
+			path = "MKMapCamera-Demo";
+			sourceTree = "<group>";
+		};
+		49257DDE1880F8AA0010F540 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49257DDF1880F8AA0010F540 /* MKMapCamera-Demo-Info.plist */,
+				49257DE01880F8AA0010F540 /* InfoPlist.strings */,
+				49257DE31880F8AA0010F540 /* main.m */,
+				49257DE51880F8AA0010F540 /* MKMapCamera-Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49257DF61880F8AA0010F540 /* MKMapCamera-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				49257DFC1880F8AA0010F540 /* MKMapCamera_DemoTests.m */,
+				49257DF71880F8AA0010F540 /* Supporting Files */,
+			);
+			path = "MKMapCamera-DemoTests";
+			sourceTree = "<group>";
+		};
+		49257DF71880F8AA0010F540 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49257DF81880F8AA0010F540 /* MKMapCamera-DemoTests-Info.plist */,
+				49257DF91880F8AA0010F540 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49257DD31880F8AA0010F540 /* MKMapCamera-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49257E001880F8AA0010F540 /* Build configuration list for PBXNativeTarget "MKMapCamera-Demo" */;
+			buildPhases = (
+				49257DD01880F8AA0010F540 /* Sources */,
+				49257DD11880F8AA0010F540 /* Frameworks */,
+				49257DD21880F8AA0010F540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MKMapCamera-Demo";
+			productName = "MKMapCamera-Demo";
+			productReference = 49257DD41880F8AA0010F540 /* MKMapCamera-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49257DEE1880F8AA0010F540 /* MKMapCamera-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49257E031880F8AA0010F540 /* Build configuration list for PBXNativeTarget "MKMapCamera-DemoTests" */;
+			buildPhases = (
+				49257DEB1880F8AA0010F540 /* Sources */,
+				49257DEC1880F8AA0010F540 /* Frameworks */,
+				49257DED1880F8AA0010F540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49257DF51880F8AA0010F540 /* PBXTargetDependency */,
+			);
+			name = "MKMapCamera-DemoTests";
+			productName = "MKMapCamera-DemoTests";
+			productReference = 49257DEF1880F8AA0010F540 /* MKMapCamera-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49257DCC1880F8AA0010F540 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "AA Engineering LLC";
+				TargetAttributes = {
+					49257DEE1880F8AA0010F540 = {
+						TestTargetID = 49257DD31880F8AA0010F540;
+					};
+				};
+			};
+			buildConfigurationList = 49257DCF1880F8AA0010F540 /* Build configuration list for PBXProject "MKMapCamera-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 49257DCB1880F8AA0010F540;
+			productRefGroup = 49257DD51880F8AA0010F540 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49257DD31880F8AA0010F540 /* MKMapCamera-Demo */,
+				49257DEE1880F8AA0010F540 /* MKMapCamera-DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49257DD21880F8AA0010F540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49257DE21880F8AA0010F540 /* InfoPlist.strings in Resources */,
+				49257DEA1880F8AA0010F540 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49257DED1880F8AA0010F540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49257DFB1880F8AA0010F540 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49257DD01880F8AA0010F540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49257DE81880F8AA0010F540 /* AppDelegate.m in Sources */,
+				49257DE41880F8AA0010F540 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49257DEB1880F8AA0010F540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49257DFD1880F8AA0010F540 /* MKMapCamera_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49257DF51880F8AA0010F540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49257DD31880F8AA0010F540 /* MKMapCamera-Demo */;
+			targetProxy = 49257DF41880F8AA0010F540 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49257DE01880F8AA0010F540 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49257DE11880F8AA0010F540 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		49257DF91880F8AA0010F540 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49257DFA1880F8AA0010F540 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49257DFE1880F8AA0010F540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49257DFF1880F8AA0010F540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49257E011880F8AA0010F540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKMapCamera-Demo/MKMapCamera-Demo-Prefix.pch";
+				INFOPLIST_FILE = "MKMapCamera-Demo/MKMapCamera-Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		49257E021880F8AA0010F540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKMapCamera-Demo/MKMapCamera-Demo-Prefix.pch";
+				INFOPLIST_FILE = "MKMapCamera-Demo/MKMapCamera-Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		49257E041880F8AA0010F540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MKMapCamera-Demo.app/MKMapCamera-Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKMapCamera-Demo/MKMapCamera-Demo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MKMapCamera-DemoTests/MKMapCamera-DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		49257E051880F8AA0010F540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MKMapCamera-Demo.app/MKMapCamera-Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKMapCamera-Demo/MKMapCamera-Demo-Prefix.pch";
+				INFOPLIST_FILE = "MKMapCamera-DemoTests/MKMapCamera-DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49257DCF1880F8AA0010F540 /* Build configuration list for PBXProject "MKMapCamera-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49257DFE1880F8AA0010F540 /* Debug */,
+				49257DFF1880F8AA0010F540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49257E001880F8AA0010F540 /* Build configuration list for PBXNativeTarget "MKMapCamera-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49257E011880F8AA0010F540 /* Debug */,
+				49257E021880F8AA0010F540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49257E031880F8AA0010F540 /* Build configuration list for PBXNativeTarget "MKMapCamera-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49257E041880F8AA0010F540 /* Debug */,
+				49257E051880F8AA0010F540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49257DCC1880F8AA0010F540 /* Project object */;
+}
