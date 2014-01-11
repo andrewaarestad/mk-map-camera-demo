@@ -19,6 +19,8 @@
 		49257DF31880F8AA0010F540 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49257DDB1880F8AA0010F540 /* UIKit.framework */; };
 		49257DFB1880F8AA0010F540 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49257DF91880F8AA0010F540 /* InfoPlist.strings */; };
 		49257DFD1880F8AA0010F540 /* MKMapCamera_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49257DFC1880F8AA0010F540 /* MKMapCamera_DemoTests.m */; };
+		49257E081880F9230010F540 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49257E071880F9230010F540 /* MapViewController.m */; };
+		49257E0A1880F9E00010F540 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49257E091880F9E00010F540 /* Main_iPhone.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		49257DF81880F8AA0010F540 /* MKMapCamera-DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MKMapCamera-DemoTests-Info.plist"; sourceTree = "<group>"; };
 		49257DFA1880F8AA0010F540 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		49257DFC1880F8AA0010F540 /* MKMapCamera_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKMapCamera_DemoTests.m; sourceTree = "<group>"; };
+		49257E061880F9230010F540 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		49257E071880F9230010F540 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		49257E091880F9E00010F540 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				49257DE71880F8AA0010F540 /* AppDelegate.m */,
 				49257DE91880F8AA0010F540 /* Images.xcassets */,
 				49257DDE1880F8AA0010F540 /* Supporting Files */,
+				49257E061880F9230010F540 /* MapViewController.h */,
+				49257E071880F9230010F540 /* MapViewController.m */,
+				49257E091880F9E00010F540 /* Main_iPhone.storyboard */,
 			);
 			path = "MKMapCamera-Demo";
 			sourceTree = "<group>";
@@ -221,6 +229,7 @@
 			files = (
 				49257DE21880F8AA0010F540 /* InfoPlist.strings in Resources */,
 				49257DEA1880F8AA0010F540 /* Images.xcassets in Resources */,
+				49257E0A1880F9E00010F540 /* Main_iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49257E081880F9230010F540 /* MapViewController.m in Sources */,
 				49257DE81880F8AA0010F540 /* AppDelegate.m in Sources */,
 				49257DE41880F8AA0010F540 /* main.m in Sources */,
 			);
